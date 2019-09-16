@@ -1,0 +1,211 @@
+
+body{
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+}
+h3{
+	margin-block-start:0;
+	margin-block-end:0;
+}
+.overalcontainer
+{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #005cfa;
+	align-items: center;
+	padding:50px;
+
+}
+
+.container
+{
+	display: flex;
+	align-items: center;
+	color:#FFF;
+}
+
+.image {
+	display: flex;
+}
+
+
+.headertext{
+
+margin-left: 60px;
+}
+
+.form-1{
+
+margin-left: 30px;
+}
+.form-2{
+
+margin-left: 10px;
+}
+
+.radio{
+	display: flex;
+    height: 42px;
+    border-radius: 100px;
+    border: 1px solid #E4E5EC;
+    align-items: center;
+    min-width: 300px;
+    justify-content: space-between;
+    padding: 0 5px;
+    margin-top:50px;
+
+}
+
+.buy{
+
+	background-color: #35CF95;
+    border-radius: 100px;
+    width: 58px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.buyandsell{
+
+	background-color: #E4E5EC;
+    display: flex;
+    width: 119px;
+    height: 30px;
+    border-radius: 100px;
+    font-size: 12px;
+}
+.sell{
+	font-size: 12px;
+    color: red;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.container-2{
+	display: flex;
+	justify-content: space-around;
+}
+
+.dlex
+{
+	display: flex;
+	color:#6B6F81;
+	height: 30px;
+	font-weight: bold;
+	font-size: 27px;
+	line-height: 30px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	padding:50px;
+}
+
+.dot{
+
+	padding-top: 15px;
+}
+
+.hero{
+	display: flex;
+	justify-content: space-around;
+	height: 610px;
+	width: 1600px;
+	background-color: #F4F5FA;
+}
+
+.hero_title{
+	padding-left:185px;
+	padding-top: 120px;
+	margin:0;
+	color: #666EE8;
+	font-size: 57px;
+	line-height: 88px;
+	text-transform: uppercase;
+}
+
+.hero_description{
+	padding-left: 185px;
+	color:#6B6F81;
+	font-size: 24px;
+	line-height: 38px;
+}
+
+.hero_selection_title{
+	padding-left: 185px;
+	color:#6B6F81;
+	padding-top: 50px;
+	font-size: 16px;
+	line-height: 34px;
+}
+
+
+.hero_selection{
+	max-width: 500px;
+	padding-left: 185px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.hero_selection_item{
+	padding-left: 35px;
+	display: flex;
+  	align-items: center;
+	height: 85px;
+	width: 100px;
+	background-color: #FFF;
+	box-shadow: 1px 1px 5px 1px grey;
+}
+.hero_selection_item:hover {
+background-color: #8A91FF;
+
+}
+
+.hero_left{
+    padding-top: 50px;
+}
+
+.benefits{
+	height: 440px;
+	width: 1600px;
+}
+
+.benefits_title{
+	text-align: center;
+	font-size: 26px;
+	line-height: 32px;
+	color: #464855;
+	padding-top: 85px;
+	padding-bottom: 40px;
+}
+
+.benefits_items {
+
+	display: flex;
+	justify-content: center;
+}
+
+h3.benefits_items_cont{
+	text-align: center;
+	font-size: 18px;
+	line-height: 38px;
+	color: #464855;
+}
+
+h4.benefits_items_cont{
+	text-align: center;
+	font-size: 16px;
+	line-height: 28px;
+	color: #898EA2;
+	margin-left: 10px;
+    margin-right: 10px;
+}
+img.benefits_items_cont{
+	padding-left: 155px;
+}
