@@ -114,10 +114,13 @@ margin-left: 10px;
 
 .hero{
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	height: 610px;
-	width: 1600px;
+	width: 100%;
 	background-color: #F4F5FA;
+}
+.hero_right{
+	    margin-right: 90px;
 }
 
 .hero_title{
@@ -169,11 +172,12 @@ background-color: #8A91FF;
 
 .hero_left{
     padding-top: 50px;
+        margin-left: 90px;
 }
 
 .benefits{
 	height: 440px;
-	width: 1600px;
+	width: 100%;
 }
 
 .benefits_title{
@@ -208,4 +212,85 @@ h4.benefits_items_cont{
 }
 img.benefits_items_cont{
 	padding-left: 155px;
+}
+
+
+.popular {
+	height: 681px;
+	width: 100%;
+	background-color: #F4F5FA;
+}
+
+.popular_menu{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 15px;
+}
+
+.popular_menu_title{
+	margin-top:15px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.popular_menu_point{
+	display: flex;
+	justify-content: space-around;
+}
+
+h3.popular_menu_point{
+	padding-bottom: 5px;
+	padding-top:5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+h3.popular_menu_point:hover{	
+	border-radius: 10px;
+	background-color: grey;
+	color: blue;
+
+}
+
+.popular_items{
+	width: 85%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	height: 200px;
+	margin: 0 auto;
+	background-color:#FFF;
+}
+
+.popular_item {
+	display: flex;
+	align-items: center;
+}
+
+.popular_item_label{
+
+	align-self: flex-end;
+}
+.popularhr{
+	padding: 0;
+	margin: 0 auto;
+	width: 85%;
+}
+.popular_item_content {
+}
+
+.text{
+	padding-bottom: 10px;
+}
+.popular_item_content_newprice{
+	padding-top: 10px;
+}
+.popular_item_label{
+	padding-bottom: 30px;
 }
